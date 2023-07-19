@@ -23,7 +23,7 @@ const StandardCheckout = ({
   productId,
   productDescription,
   callbackUrl,
-}: StandardCheckoutProps) => {
+}: any) => {
   const [isLoading, setIsLoading] = useState(false);
   const [email, setEmail] = useState<any>("");
 

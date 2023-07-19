@@ -28,7 +28,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/admin/subscription"
+    "app/admin/subscription",
+    "app/checkout/page.jsx"
   ],
   "exclude": ["node_modules"]
 }

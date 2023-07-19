@@ -47,7 +47,7 @@ const PaymentModal = () => {
                 paymentReference={`REF-${timestamp}`}
                 productId="FX"
                 productDescription="Fx signal"
-                callbackUrl="http://localhost:3000/"
+                callbackUrl="https://fx-signals-plum.vercel.app/"
               />
             </div>
           )}

@@ -14,7 +14,7 @@ interface StandardCheckoutProps {
   callbackUrl: string;
 }
 
-const StandardCheckout: React.FC<StandardCheckoutProps> = ({
+const StandardCheckout = ({
   publicKey,
   amount,
   currency,
@@ -23,7 +23,7 @@ const StandardCheckout: React.FC<StandardCheckoutProps> = ({
   productId,
   productDescription,
   callbackUrl,
-}) => {
+}: StandardCheckoutProps) => {
   const [isLoading, setIsLoading] = useState(false);
   const [email, setEmail] = useState<any>("");
 
